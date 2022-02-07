@@ -5,4 +5,5 @@ require "ratibram.colorscheme"
 require "ratibram.cmp"
 require "ratibram.lsp"
 require "ratibram.telescope"
+require "ratibram.treesitter"
 
