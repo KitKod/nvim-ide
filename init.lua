@@ -9,4 +9,5 @@ require "ratibram.treesitter"
 require "ratibram.autopairs"
 require "ratibram.comment"
 require "ratibram.gitsigns"
+require "ratibram.nvim-tree"
 
