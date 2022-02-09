@@ -10,4 +10,5 @@ require "ratibram.autopairs"
 require "ratibram.comment"
 require "ratibram.gitsigns"
 require "ratibram.nvim-tree"
+require "ratibram.bufferline"
 

@@ -70,6 +70,11 @@ keymap("n", "<leader>g", "<cmd>lua require'telescope.builtin'.live_grep()<cr>", 
 keymap("n", "<leader>r", "<cmd>lua require'telescope.builtin'.lsp_references()<cr>", opts)
 
 
+-- Bufline
+keymap("n", "bq", ":Bdelete<cr>", opts)
+keymap("n", "bw", ":BufferLinePick<cr>", opts)
+
+
 -- Nvimtree
 keymap("n", "<leader>e", ":NvimTreeToggle<cr>", opts)
 
