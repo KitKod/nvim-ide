@@ -6,6 +6,8 @@
 
 * Install [NeoVIM](https://github.com/neovim/neovim/wiki/Installing-Neovim). **IMPORTANT** Requires [Neovim v0.6.0](https://github.com/neovim/neovim/releases/tag/v0.6.0) or [Nightly](https://github.com/neovim/neovim/releases/tag/nightly)
 
+* Install [kitty](https://sw.kovidgoyal.net/kitty/binary/#binary-install)
+
 * Add copy/paste possibility
 
   + On mac `pbcopy` should be builtin
