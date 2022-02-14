@@ -78,3 +78,5 @@ keymap("n", "bw", ":BufferLinePick<cr>", opts)
 -- Nvimtree
 keymap("n", "<leader>e", ":NvimTreeToggle<cr>", opts)
 
+keymap("n", "<leader>p", ":Format<cr>", opts)
+
