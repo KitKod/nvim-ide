@@ -1,57 +1,63 @@
 # nvim-ide
 
+## Install this config
 
-## Try out this config
+* Make sure you have [node](https://nodejs.org/en/) installed, I recommend a node manager like [nvm](https://github.com/nvm-sh/nvm)
 
-- Make sure you have [node](https://nodejs.org/en/) installed, I recommend a node manager like [nvm](https://github.com/nvm-sh/nvm).
+* Install [NeoVIM](https://github.com/neovim/neovim/wiki/Installing-Neovim). **IMPORTANT** Requires [Neovim v0.6.0](https://github.com/neovim/neovim/releases/tag/v0.6.0) or [Nightly](https://github.com/neovim/neovim/releases/tag/nightly)
 
-- Add copy/paste possibility 
+* Add copy/paste possibility
 
--- On mac `pbcopy` should be builtin
+  + On mac `pbcopy` should be builtin
 
--- On Ubuntu
+  + On Ubuntu
 
-  ```
-  sudo apt install xsel
-  ```
+    ```
+    sudo apt install xsel
+    ```
 
--- On Arch Linux
+  + On Arch Linux
 
-  ```
-  sudo pacman -S xsel
-  ```
-- Next we need to install python support (node is optional)
+    ```
+    sudo pacman -S xsel
+    ```
 
--- Neovim python support
+* Next we need to install python support (node is optional)
 
-  ```
-  pip install pynvim
-  ```
+  + Neovim python support
 
--- Neovim node support
+    ```
+    pip install pynvim
+    ```
 
-  ```
-  npm i -g neovim
-  ``` 
+  + Neovim node support
 
-- Install Linters and Formatters for Python (or your Language). It is used for `Null-LS` plugin.
+    ```
+    npm i -g neovim
+    ```
+
+* Install Linters and Formatters for Python (or your Language). It is used for `Null-LS` plugin.
 
   ```
   pip3 install flake8
-  pip3 install mypy 
-  pip3 install back 
+  pip3 install mypy
+  pip3 install back
   ```
 
-- Make sure to remove or move your current `nvim` directory
+* Set up dependencies for [telescope.nvim](https://github.com/nvim-telescope/telescope.nvim)
 
-**IMPORTANT** Requires [Neovim v0.6.0](https://github.com/neovim/neovim/releases/tag/v0.6.0) or [Nightly](https://github.com/neovim/neovim/releases/tag/nightly). 
-```
-git clone https://github.com/KitKod/nvim-ide ~/.config/nvim
-```
+  + Install [ripgrep](https://github.com/BurntSushi/ripgrep#installation)
+  + Install [fd](https://github.com/sharkdp/fd)
+  + Install [ueberzug](https://github.com/seebye/ueberzug)
 
-Run `nvim` and wait for the plugins to be installed 
+* Apply this config into NeoVIM. Make sure to remove or move your current `nvim` directory
 
-**NOTE** (You will notice treesitter pulling in a bunch of parsers the next time you open Neovim) 
+  ```
+  git clone https://github.com/KitKod/nvim-ide ~/.config/nvim
+  ```
+
+* Run `nvim` and wait for the plugins to be installed. **NOTE** (You will notice treesitter pulling in a bunch of parsers the next time you open Neovim)
+
 
 ## Get healthy
 
@@ -60,8 +66,3 @@ Open `nvim` and enter the following:
 ```
 :checkhealth
 ```
-
----
-
-\- Mykyta Kamak
-
