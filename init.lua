@@ -11,4 +11,5 @@ require "ratibram.comment"
 require "ratibram.gitsigns"
 require "ratibram.nvim-tree"
 require "ratibram.bufferline"
+require "ratibram.lualine"
 
